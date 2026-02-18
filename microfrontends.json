@@ -1,23 +1,15 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "shell": {
-      "packageName": "@repo/shell",
-      "development": {
-        "local": 3000,
-        "fallback": "https://shell.vercel.app"
-      }
+    "web": {
+      "type": "default"
     },
     "app": {
-      "packageName": "@repo/app",
       "routing": [
         {
-          "paths": ["/app/:path*"]
+          "paths": ["/app", "/app/:path*"]
         }
-      ],
-      "development": {
-        "local": 3001
-      }
+      ]
     }
   }
 }
