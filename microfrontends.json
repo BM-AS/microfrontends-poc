@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "web": {},
-    "app": {
+    "microfrontends-poc": {},
+    "microfrontends-poc-app": {
       "routing": [
         {
           "paths": ["/app", "/app/:path*"]

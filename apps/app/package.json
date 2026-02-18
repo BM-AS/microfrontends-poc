@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev --port 3001",
-    "build": "vite build",
+    "build": "bunx vinxi build",
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "typescript": "^5",
     "vite": "^7.3.1",
     "vite-tsconfig-paths": "^5.1.4",
-    "@vercel/microfrontends": "latest"
+    "@vercel/microfrontends": "latest",
+    "vinxi": "0.5.3"
   }
 }
