@@ -1,9 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "web": {
-      "type": "default"
-    },
+    "web": {},
     "app": {
       "routing": [
         {
