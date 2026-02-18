@@ -1,0 +1,14 @@
+{
+  "applications": {
+    "web": {
+      "type": "default"
+    },
+    "dashboard": {
+      "routing": [
+        {
+          "paths": ["/app", "/app/:path*"]
+        }
+      ]
+    }
+  }
+}
